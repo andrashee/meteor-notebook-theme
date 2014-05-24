@@ -172,13 +172,7 @@ Date.now = Date.now || function() { return +new Date; };
   	    $this.is('i') && ($this = $this.parent());
   	    $this.button('loading');
   	});
-
-    var scrollToTop = function(){
-  		!location.hash && setTimeout(function () {
-  		    if (!pageYOffset) window.scrollTo(0, 0);
-  		}, 1000);
-  	};
-  	
+ 	
     var $window = $(window);
     // mobile
   	var mobile = function(option){
@@ -186,7 +180,6 @@ Date.now = Date.now || function() { return +new Date; };
   			$('[data-toggle^="shift"]').shift('reset');
   			return true;
   		}
-  		scrollToTop();
   		$('[data-toggle^="shift"]').shift('init');
       return true;
   	};
@@ -197,10 +190,18 @@ Date.now = Date.now || function() { return +new Date; };
   	$window.resize(function() {
       clearTimeout($resize);
       $resize = setTimeout(function(){
+        setHeight();
         $window.width() < 767 && mobile();
         $window.width() >= 768 && mobile('reset') && fixVbox();
       }, 500);
   	});
+
+    // fluid layout
+    var setHeight = function(){
+      $('.app-fluid #nav > *').css('min-height', $(window).height());
+      return true;
+    }
+    setHeight();
     
     // fix vbox
     var fixVbox = function(){
@@ -225,6 +226,8 @@ Date.now = Date.now || function() { return +new Date; };
       $this.toggleClass('active').parent().toggleClass('active');
       
       $this.next().is('ul') && e.preventDefault();
+
+      setTimeout(function(){ $(document).trigger('updateNav'); }, 300);
     });
 
     // dropdown still

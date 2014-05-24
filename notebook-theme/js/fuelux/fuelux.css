@@ -201,7 +201,7 @@
   z-index: 2;
 }
 .wizard ul li.active {
-  color: #8EC165;
+  color: #3a87ad;
   background: #fff;
 }
 .wizard ul li.active:after {

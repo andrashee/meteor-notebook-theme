@@ -151,6 +151,10 @@
 			clearTimeout($slimResize);
 			$slimResize = setTimeout(function(){$self.slimScroll($data);}, 500);
 		});
+
+    $(document).on('updateNav', function(){
+      $self.slimScroll($data);
+    });
 	});
 
 	// pjax
@@ -212,24 +216,23 @@
 			}
 		);
 	});
-
-
-	// datatable
-	$('[data-ride="datatables"]').each(function() {
-		var oTable = $(this).dataTable( {
-			"bProcessing": true,
-			"sAjaxSource": "js/data/datatable.json",
-			"sDom": "<'row'<'col-sm-6'l><'col-sm-6'f>r>t<'row'<'col-sm-6'i><'col-sm-6'p>>",
-			"sPaginationType": "full_numbers",
-			"aoColumns": [
-				{ "mData": "engine" },
-				{ "mData": "browser" },
-				{ "mData": "platform" },
-				{ "mData": "version" },
-				{ "mData": "grade" }
-			]
-		} );
-	});
+	
+	// add notes
+	function addMsg($msg){
+		var $el = $('.nav-user'), $n = $('.count:first', $el), $v = parseInt($n.text());
+		$('.count', $el).fadeOut().fadeIn().text($v+1);
+		$($msg).hide().prependTo($el.find('.list-group')).slideDown().css('display','block');
+	}
+	var $msg = '<a href="#" class="media list-group-item">'+
+                  '<span class="pull-left thumb-sm text-center">'+
+                    '<i class="fa fa-envelope-o fa-2x text-success"></i>'+
+                  '</span>'+
+                  '<span class="media-body block m-b-none">'+
+                    'Sophi sent you a email<br>'+
+                    '<small class="text-muted">1 minutes ago</small>'+
+                  '</span>'+
+                '</a>';	
+  setTimeout(function(){addMsg($msg);}, 1500);
 
 	// select2 
  	if ($.fn.select2) {

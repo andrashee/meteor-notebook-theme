@@ -28,9 +28,9 @@
     $('.calendar').each(function() {
       $(this).fullCalendar({
         header: {
-          left: 'prev,next',
+          left: 'prev',
           center: 'title',
-          right: 'today,month,agendaWeek,agendaDay'
+          right: 'next'
         },
         editable: true,
         droppable: true, // this allows things to be dropped onto the calendar !!!
@@ -114,6 +114,20 @@
     $('#myEvents li').each(function() {
       addDragEvent($(this));
     });
+
+    $(document).on('click', '#dayview', function() {
+      $('.calendar').fullCalendar('changeView', 'agendaDay')
+    });
+
+    $('#weekview').on('click', function() {
+      $('.calendar').fullCalendar('changeView', 'agendaWeek')
+    });
+
+    $('#monthview').on('click', function() {
+      $('.calendar').fullCalendar('changeView', 'month')
+    });
+
+
 
   });
 }(window.jQuery);

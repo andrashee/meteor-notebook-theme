@@ -852,13 +852,13 @@
 		constructor: Search,
 
 		search: function (searchText) {
-			this.$icon.attr('class', 'icon-remove');
+			this.$icon.attr('class', 'fa fa-times');
 			this.activeSearch = searchText;
 			this.$element.trigger('searched', searchText);
 		},
 
 		clear: function () {
-			this.$icon.attr('class', 'icon-search');
+			this.$icon.attr('class', 'fa fa-search');
 			this.activeSearch = '';
 			this.$input.val('');
 			this.$element.trigger('cleared');
@@ -896,7 +896,7 @@
 			} else {
 				val = this.$input.val();
 				inputPresentAndUnchanged = val && (val === this.activeSearch);
-				this.$icon.attr('class', inputPresentAndUnchanged ? 'icon-remove' : 'icon-search');
+				this.$icon.attr('class', inputPresentAndUnchanged ? 'fa fa-times' : 'fa fa-search');
 			}
 		},
 
