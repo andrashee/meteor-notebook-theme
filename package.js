@@ -15,7 +15,7 @@ Package.on_use(function (api) {
     api.add_files(path.join(asset_path, 'css', 'bootstrap.css'), 'client');
     api.add_files(path.join(asset_path, 'css', 'animate.css'), 'client');
     api.add_files(path.join(asset_path, 'css', 'font.css'), 'client');
-//  api.add_files(path.join(asset_path, 'js', 'fuelux', 'fuelux.css'), 'client');
+  api.add_files(path.join(asset_path, 'js', 'fuelux', 'fuelux.css'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'select2', 'select2.css'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'select2', 'theme.css'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'datepicker', 'datepicker.css'), 'client');
@@ -41,7 +41,7 @@ Package.on_use(function (api) {
     api.add_files(path.join(asset_path, 'js', 'app.js'), 'client');
     api.add_files(path.join(asset_path, 'js', 'slimscroll', 'jquery.slimscroll.min.js'), 'client');
     api.add_files(path.join(asset_path, 'js', 'app.plugin.js'), 'client');
-//  api.add_files(path.join(asset_path, 'js', 'fuelux', 'fuelux.js'), 'client');
+    api.add_files(path.join(asset_path, 'js', 'fuelux', 'fuelux.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'parsley', 'parsley.min.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'file-input', 'bootstrap-filestyle.min.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'datepicker', 'bootstrap-datepicker.js'), 'client');

@@ -17,7 +17,7 @@
 }
 .radio-custom > i.checked:before,
 .checkbox-custom > i.checked:before {
-  color: #92cf5c;
+  color: #65bd77;
 }
 .radio-custom > i.disabled:before,
 .checkbox-custom > i.disabled:before {
@@ -201,7 +201,7 @@
   z-index: 2;
 }
 .wizard ul li.active {
-  color: #3a87ad;
+  color: #65bd77;
   background: #fff;
 }
 .wizard ul li.active:after {
