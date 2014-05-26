@@ -31,6 +31,7 @@ Package.on_use(function (api) {
     api.add_files(path.join(asset_path, 'less', 'app.utilities.import.less'), 'client');
     api.add_files(path.join(asset_path, 'less', 'app.variables.import.less'), 'client');
     api.add_files(path.join(asset_path, 'less', 'app.widgets.import.less'), 'client');
+    api.add_files(path.join(asset_path, 'less', 'app.custom.import.less'), 'client');
     api.add_files(path.join(asset_path, 'less', 'app.less'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'fullcalendar.css'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'theme.css'), 'client');
