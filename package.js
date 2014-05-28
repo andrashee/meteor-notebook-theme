@@ -33,8 +33,8 @@ Package.on_use(function (api) {
     api.add_files(path.join(asset_path, 'less', 'app.widgets.import.less'), 'client');
     api.add_files(path.join(asset_path, 'less', 'app.custom.import.less'), 'client');
     api.add_files(path.join(asset_path, 'less', 'app.less'), 'client');
-//  api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'fullcalendar.css'), 'client');
-//  api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'theme.css'), 'client');
+ api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'fullcalendar.css'), 'client');
+  api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'theme.css'), 'client');
 //
 //
 //  // JS
@@ -52,7 +52,7 @@ Package.on_use(function (api) {
 //  api.add_files(path.join(asset_path, 'js', 'slider', 'bootstrap-slider.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'jquery.ui.touch-punch.min.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'jquery-ui-1.10.3.custom.min.js'), 'client');
-//  api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'fullcalendar.min.js'), 'client');
+  api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'fullcalendar.min.js'), 'client');
 
 
 });
