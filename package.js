@@ -16,8 +16,8 @@ Package.on_use(function (api) {
     api.add_files(path.join(asset_path, 'css', 'animate.css'), 'client');
     api.add_files(path.join(asset_path, 'css', 'font.css'), 'client');
   api.add_files(path.join(asset_path, 'js', 'fuelux', 'fuelux.css'), 'client');
-//  api.add_files(path.join(asset_path, 'js', 'select2', 'select2.css'), 'client');
-//  api.add_files(path.join(asset_path, 'js', 'select2', 'theme.css'), 'client');
+  api.add_files(path.join(asset_path, 'js', 'select2', 'select2.css'), 'client');
+  api.add_files(path.join(asset_path, 'js', 'select2', 'theme.css'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'datepicker', 'datepicker.css'), 'client');
     api.add_files(path.join(asset_path, 'less', 'app.arrow.import.less'), 'client');
     api.add_files(path.join(asset_path, 'less', 'app.buttons.import.less'), 'client');
@@ -47,7 +47,7 @@ Package.on_use(function (api) {
 //  api.add_files(path.join(asset_path, 'js', 'datepicker', 'bootstrap-datepicker.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'libs', 'moment.min.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'combodate', 'combodate.js'), 'client');
-//  api.add_files(path.join(asset_path, 'js', 'select2', 'select2.min.js'), 'client');
+  api.add_files(path.join(asset_path, 'js', 'select2', 'select2.min.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'slider', 'bootstrap-slider.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'jquery.ui.touch-punch.min.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'jquery-ui-1.10.3.custom.min.js'), 'client');
