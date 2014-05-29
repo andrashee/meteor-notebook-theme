@@ -22,7 +22,7 @@
   color: #aaa;
 }
 .select2-container.select2-container-active .select2-choice {
-  border-color: #5897fb;
+  border-color: rgb(76, 192, 193);
 }
 .select2-container.select2-dropdown-open .select2-choice .select2-arrow b:after {
   content: "\f0d8";
@@ -59,7 +59,7 @@
   background: #fff;
 }
 .select2-results .select2-highlighted {
-  background-color: #4cc0c1;
+  background-color: #65bd77;
 }
 .select2-container-multi .select2-choices {
   border: 1px solid #d9d9d9;
