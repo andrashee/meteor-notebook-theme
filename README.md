@@ -10,14 +10,14 @@ If you are going to use this template you have to buy it from [themeforest](http
 Features
 --------
 
-Built with Bootstrap 3
-Flat UI with clean style
-Many components
-Mobile widgets
-Fully responsive
-Web app layouts
-HTML5 Markup and CSS3
-Less CSS – Many variables. Mixins.
+* Built with Bootstrap 3
+* Flat UI with clean style
+* Many components
+* Mobile widgets
+* Fully responsive
+* Web app layouts
+* HTML5 Markup and CSS3
+* Less CSS – Many variables. Mixins.
 
 To install
 ----------
