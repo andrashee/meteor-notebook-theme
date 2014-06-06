@@ -5,7 +5,7 @@ Notebook - Web App and Admin Template (v.1.1.0), fully responsive web applicatio
 
 If you are going to use this template you have to buy it from [themeforest](http://themeforest.net/item/notebook-web-app-and-admin-template/6228450).
 
-![http://3.s3.envato.com/files/87769289/preview.png]
+![preview](http://3.s3.envato.com/files/87769289/preview.png)
 
 Features
 --------
