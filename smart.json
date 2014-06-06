@@ -1,6 +1,8 @@
 {
-  "name": "bootstrap-notebook",
-  "description": "Notebook admin template for bootstrap 3",
-  "author": "Andras Hee",
-  "version": "0.0.1"
+    "name": "bootstrap-notebook-theme",
+    "description": "Notebook - Web App and Admin Template (v.1.1.0), fully responsive web application and admin dashboard template, from Flatfull, packaged for Meteor.js.",
+    "homepage": "https://github.com/AndrasPH/meteor-notebook-theme",
+    "author": "Andras Hee",
+    "version": "0.0.1",
+    "git": "https://github.com/AndrasPH/meteor-notebook-theme"
 }

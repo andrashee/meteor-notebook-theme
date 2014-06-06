@@ -1,7 +1,7 @@
 notebook-theme
 =====================
 
-Notebook - Web App and Admin Template (v.1.1.0), fully responsive web application and admin dashboard template with app landing pages, from Flatfull, packaged for Meteor.js.
+Notebook - Web App and Admin Template (v.1.1.0), fully responsive web application and admin dashboard template, from Flatfull, packaged for Meteor.js.
 
 If you are going to use this template you have to buy it from [themeforest](http://themeforest.net/item/notebook-web-app-and-admin-template/6228450).
 

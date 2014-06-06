@@ -1,5 +1,5 @@
 Package.describe({
-    summary: "Notebook admin theme template for Twitter Bootstrap"
+    summary: "Notebook - Web App and Admin Template (v.1.1.0), fully responsive web application and admin dashboard template, from Flatfull, packaged for Meteor.js."
 });
 
 Package.on_use(function (api) {
@@ -36,7 +36,7 @@ Package.on_use(function (api) {
     api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'fullcalendar.css'), 'client');
     api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'theme.css'), 'client');
 
-//  // JS
+    // JS
     api.add_files(path.join(asset_path, 'js', 'bootstrap.js'), 'client');
     api.add_files(path.join(asset_path, 'js', 'app.js'), 'client');
     api.add_files(path.join(asset_path, 'js', 'slimscroll', 'jquery.slimscroll.min.js'), 'client');
@@ -52,6 +52,5 @@ Package.on_use(function (api) {
 //  api.add_files(path.join(asset_path, 'js', 'jquery.ui.touch-punch.min.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'jquery-ui-1.10.3.custom.min.js'), 'client');
     api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'fullcalendar.min.js'), 'client');
-
 
 });
