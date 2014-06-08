@@ -31,3 +31,7 @@ $ mrt add notebook-theme
 2. Not all js and css files of all libraries are included in the package.js by default. If you want to add some, fork the repo and change the package.js file accordingly.
 
 3. The bootstrap package is already included.
+
+
+
+Provided by [Philipp & Heé](http://blog.philippundhee.ch/)
