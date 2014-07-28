@@ -43,6 +43,7 @@ Package.on_use(function (api) {
     api.add_files(path.join(asset_path, 'less', 'app.less'), 'client');
     api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'fullcalendar.css'), 'client');
     api.add_files(path.join(asset_path, 'js', 'fullcalendar', 'theme.css'), 'client');
+    api.add_files(path.join(asset_path, 'js', 'datatables', 'datatables.css'), 'client');
 
     // JS
     api.add_files(path.join(asset_path, 'js', 'bootstrap.js'), 'client');
@@ -50,6 +51,7 @@ Package.on_use(function (api) {
     api.add_files(path.join(asset_path, 'js', 'slimscroll', 'jquery.slimscroll.min.js'), 'client');
     api.add_files(path.join(asset_path, 'js', 'app.plugin.js'), 'client');
     api.add_files(path.join(asset_path, 'js', 'fuelux', 'fuelux.js'), 'client');
+
 //  api.add_files(path.join(asset_path, 'js', 'parsley', 'parsley.min.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'file-input', 'bootstrap-filestyle.min.js'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'datepicker', 'bootstrap-datepicker.js'), 'client');
