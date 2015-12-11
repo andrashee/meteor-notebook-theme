@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function (api) {
     api.use([
-        'less',
+        'less@2.5.1',
         'jquery'
     ]);
 
@@ -15,14 +15,14 @@ Package.on_use(function (api) {
     api.add_files(path.join(asset_path, 'css', 'bootstrap.css'), 'client');
     api.add_files(path.join(asset_path, 'css', 'animate.css'), 'client');
     api.add_files(path.join(asset_path, 'css', 'font.css'), 'client');
-    api.add_files(path.join(asset_path, 'fonts', 'opensans', 'opensans-bold-webfont.woff'), 'client');
-    api.add_files(path.join(asset_path, 'fonts', 'opensans', 'opensans-light-webfont.woff'), 'client');
-    api.add_files(path.join(asset_path, 'fonts', 'opensans', 'opensans-webfont.woff'), 'client');
-    api.add_files(path.join(asset_path, 'fonts', 'FontAwesome.otf'), 'client');
-    api.add_files(path.join(asset_path, 'fonts', 'fontawesome-webfont.eot'), 'client');
-    api.add_files(path.join(asset_path, 'fonts', 'fontawesome-webfont.svg'), 'client');
-    api.add_files(path.join(asset_path, 'fonts', 'fontawesome-webfont.ttf'), 'client');
-    api.add_files(path.join(asset_path, 'fonts', 'fontawesome-webfont.woff'), 'client');
+    api.addAssets(path.join(asset_path, 'fonts', 'opensans', 'opensans-bold-webfont.woff'), 'client');
+    api.addAssets(path.join(asset_path, 'fonts', 'opensans', 'opensans-light-webfont.woff'), 'client');
+    api.addAssets(path.join(asset_path, 'fonts', 'opensans', 'opensans-webfont.woff'), 'client');
+    api.addAssets(path.join(asset_path, 'fonts', 'FontAwesome.otf'), 'client');
+    api.addAssets(path.join(asset_path, 'fonts', 'fontawesome-webfont.eot'), 'client');
+    api.addAssets(path.join(asset_path, 'fonts', 'fontawesome-webfont.svg'), 'client');
+    api.addAssets(path.join(asset_path, 'fonts', 'fontawesome-webfont.ttf'), 'client');
+    api.addAssets(path.join(asset_path, 'fonts', 'fontawesome-webfont.woff'), 'client');
     api.add_files(path.join(asset_path, 'js', 'fuelux', 'fuelux.css'), 'client');
     api.add_files(path.join(asset_path, 'js', 'select2', 'select2.css'), 'client');
     api.add_files(path.join(asset_path, 'js', 'select2', 'theme.css'), 'client');
