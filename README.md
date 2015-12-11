@@ -1,6 +1,8 @@
 notebook-theme
 =====================
 
+**Attention, a pull request has been submitted to the original author. In the meantime, this forked version is intended to be used locally. See https://dweldon.silvrback.com/local-packages for a good reference on how to use local packages.**
+
 Notebook - Web App and Admin Template (v.1.1.0), fully responsive web application and admin dashboard template, from Flatfull, packaged for Meteor.js.
 
 If you are going to use this template you have to buy it from [themeforest](http://themeforest.net/item/notebook-web-app-and-admin-template/6228450).
